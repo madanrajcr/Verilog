@@ -1,0 +1,21 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "keep_driving",
+					"strict" : false
+				},
+				{
+					"name" : "arrived",
+					"strict" : false
+				},
+				{
+					"name" : "gas_tank_empty",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

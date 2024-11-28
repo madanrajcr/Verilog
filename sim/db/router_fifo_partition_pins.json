@@ -1,0 +1,105 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "full",
+					"strict" : false
+				},
+				{
+					"name" : "empty",
+					"strict" : false
+				},
+				{
+					"name" : "dataout[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dataout[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dataout[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dataout[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dataout[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dataout[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dataout[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dataout[7]",
+					"strict" : false
+				},
+				{
+					"name" : "resetn",
+					"strict" : false
+				},
+				{
+					"name" : "read_enb",
+					"strict" : false
+				},
+				{
+					"name" : "write_enb",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "soft_reset",
+					"strict" : false
+				},
+				{
+					"name" : "datain[0]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[1]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[2]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[3]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[4]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[5]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[6]",
+					"strict" : false
+				},
+				{
+					"name" : "datain[7]",
+					"strict" : false
+				},
+				{
+					"name" : "lfd_state",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

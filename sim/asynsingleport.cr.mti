@@ -1,0 +1,15 @@
+C:/Users/madan/OneDrive/Desktop/verilog/tb/asynsingleport_tb.v {1 {vlog -work work -stats=none C:/Users/madan/OneDrive/Desktop/verilog/tb/asynsingleport_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module asynsingleport_tb
+
+Top level modules:
+	asynsingleport_tb
+
+} {} {}} C:/Users/madan/OneDrive/Desktop/verilog/rtl/asynsingleport.v {1 {vlog -work work -stats=none C:/Users/madan/OneDrive/Desktop/verilog/rtl/asynsingleport.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module asynsingleport
+
+Top level modules:
+	asynsingleport
+
+} {} {}}

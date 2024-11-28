@@ -1,0 +1,57 @@
+module operators_tb;
+  
+  reg [3:0] opcode;
+  reg [7:0] operand1;
+  reg [7:0] operand2;
+  wire [7:0] result;
+  
+  
+  operators dut (
+    .opcode(code),
+    .operand1(a),
+    .operand2(b),
+    .result(result)
+  );
+  
+  initial
+  begin
+    // Test case 1: Addition
+    opcode = 4'b0000;
+    operand1 = 8'b00001010;
+    operand2 = 8'b00000110;
+    #10;
+    $display("Addition Result: %d", result);
+    
+    // Test case 2: Bitwise AND
+    opcode = 4'b0100;
+    operand1 = 8'b00101011;
+    operand2 = 8'b11001100;
+    #10;
+    $display("Bitwise AND Result: %d", result);
+    
+    // Test case 3: Logical OR
+    opcode = 4'b0101;
+    operand1 = 8'b00101011;
+    operand2 = 8'b11001100;
+    #10;
+    $display("Logical OR Result: %d", result);
+    
+    // Test case 4: Bitwise XOR
+    opcode = 4'b0110;
+    operand1 = 8'b00101011;
+    operand2 = 8'b11001100;
+    #10;
+    $display("Bitwise XOR Result: %d", result);
+    
+    // Test case 5: Bitwise NOT
+    opcode = 4'b0111;
+    operand1 = 8'b00101011;
+    #10;
+    $display("Bitwise NOT Result: %d", result);
+    
+ 
+    
+    $finish;
+  end
+  
+endmodule

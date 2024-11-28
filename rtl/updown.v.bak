@@ -1,0 +1,26 @@
+module updown(clk,reset,data,max,min);
+input clk,reset;
+input [3:0]data;
+output [3:0]max,min;
+integer i;
+always @(*)
+begin
+if(reset)
+begin 
+   max <= 4'b0000;
+   min <= 4'b0000;
+end
+else
+begin
+for(i=0;i<3;i=i+1)
+
+   if(data[i]==1'b0)
+
+begin
+   max = min+3;
+end
+else
+   min = max;
+end
+end
+endmodule

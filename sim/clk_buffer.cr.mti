@@ -1,0 +1,15 @@
+C:/Users/madan/OneDrive/Desktop/verilog/rtl/clk_buffer.v {1 {vlog -work work -stats=none C:/Users/madan/OneDrive/Desktop/verilog/rtl/clk_buffer.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module clk_buffer
+
+Top level modules:
+	clk_buffer
+
+} {} {}} C:/Users/madan/OneDrive/Desktop/verilog/tb/clk_buffer_tb.v {1 {vlog -work work -stats=none C:/Users/madan/OneDrive/Desktop/verilog/tb/clk_buffer_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module clk_buffer_tb
+
+Top level modules:
+	clk_buffer_tb
+
+} {} {}}

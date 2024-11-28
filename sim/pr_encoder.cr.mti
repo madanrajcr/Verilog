@@ -1,0 +1,17 @@
+C:/Users/madan/OneDrive/Desktop/verilog/rtl/pr_encoder.v {1 {vlog -work work -stats=none C:/Users/madan/OneDrive/Desktop/verilog/rtl/pr_encoder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module pr_encoder
+-- Compiling module pr_circuit
+-- Compiling module encoder
+
+Top level modules:
+	pr_encoder
+
+} {} {}} C:/Users/madan/OneDrive/Desktop/verilog/tb/pr_encoder_tb.v {1 {vlog -work work -stats=none C:/Users/madan/OneDrive/Desktop/verilog/tb/pr_encoder_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module pr_encoder_tb
+
+Top level modules:
+	pr_encoder_tb
+
+} {} {}}

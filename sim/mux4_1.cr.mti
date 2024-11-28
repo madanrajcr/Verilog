@@ -1,0 +1,16 @@
+C:/Users/madan/OneDrive/Desktop/verilog/tb/mux4_1_tb.v {1 {vlog -work work -stats=none C:/Users/madan/OneDrive/Desktop/verilog/tb/mux4_1_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux4_1_tb
+
+Top level modules:
+	mux4_1_tb
+
+} {} {}} C:/Users/madan/OneDrive/Desktop/verilog/rtl/mux4_1.v {1 {vlog -work work -stats=none C:/Users/madan/OneDrive/Desktop/verilog/rtl/mux4_1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux4_1
+-- Compiling module mux2_1
+
+Top level modules:
+	mux4_1
+
+} {} {}}

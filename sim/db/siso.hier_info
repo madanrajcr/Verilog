@@ -1,0 +1,20 @@
+|siso
+clk => serial_out[0]~reg0.CLK
+clk => serial_out[1]~reg0.CLK
+clk => serial_out[2]~reg0.CLK
+clk => serial_out[3]~reg0.CLK
+reset => serial_out[0]~reg0.ACLR
+reset => serial_out[1]~reg0.ACLR
+reset => serial_out[2]~reg0.ACLR
+reset => serial_out[3]~reg0.ACLR
+serial_in => serial_out[0]~reg0.DATAIN
+shift => serial_out[3]~reg0.ENA
+shift => serial_out[2]~reg0.ENA
+shift => serial_out[1]~reg0.ENA
+shift => serial_out[0]~reg0.ENA
+serial_out[0] <= serial_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+serial_out[1] <= serial_out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+serial_out[2] <= serial_out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+serial_out[3] <= serial_out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,10 @@
+|muxb4_1
+a => out.DATAA
+b => out.DATAB
+c => ~NO_FANOUT~
+d => ~NO_FANOUT~
+s0 => always0.IN0
+s1 => always0.IN1
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+

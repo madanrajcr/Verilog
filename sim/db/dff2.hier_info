@@ -1,0 +1,11 @@
+|dff2
+D => Q~reg0.DATAIN
+D => Qbar~reg0.DATAIN
+CLK => Qbar~reg0.CLK
+CLK => Q~reg0.CLK
+RESET => Qbar~reg0.PRESET
+RESET => Q~reg0.ACLR
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Qbar <= Qbar~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

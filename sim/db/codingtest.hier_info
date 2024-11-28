@@ -1,0 +1,8 @@
+|codingtest
+shut_off_computer <= <VCC>
+keep_driving <= keep_driving.DB_MAX_OUTPUT_PORT_TYPE
+cpu_overheated => ~NO_FANOUT~
+arrived => keep_driving.OUTPUTSELECT
+gas_tank_empty => keep_driving.DATAB
+
+

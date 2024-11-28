@@ -1,0 +1,14 @@
+C:/Users/madan/OneDrive/Desktop/verilog/rtl/updown.v {1 {vlog -work work -stats=none C:/Users/madan/OneDrive/Desktop/verilog/rtl/updown.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module updown
+
+Top level modules:
+	updown
+
+} {} {}} C:/Users/madan/OneDrive/Desktop/verilog/tb/updown_tb.v {0 {vlog -work work -stats=none C:/Users/madan/OneDrive/Desktop/verilog/tb/updown_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module updown_tb
+** Error: (vlog-13069) C:/Users/madan/OneDrive/Desktop/verilog/tb/updown_tb.v(27): near "'1": syntax error, unexpected UNSIZED_BIT, expecting ';'.
+** Error: C:/Users/madan/OneDrive/Desktop/verilog/tb/updown_tb.v(27): (vlog-13008) Unsized literal value 0101000001010101010101010101010100 exceeds default size of literals which  is 32-bit. Either size the literal (i.e. 64'd0101000001010101010101010101010100) or reduce the literal value to fit in 32 bits.
+
+} {4.0 6.0} {}}

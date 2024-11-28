@@ -1,0 +1,41 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "serial_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "serial_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "serial_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "serial_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "serial_in",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "shift",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

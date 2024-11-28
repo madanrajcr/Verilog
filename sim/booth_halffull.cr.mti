@@ -1,0 +1,17 @@
+{C:/Users/madan/OneDrive/Desktop/major project verilog/rtl/booth_halffull.v} {1 {vlog -work work -stats=none {C:/Users/madan/OneDrive/Desktop/major project verilog/rtl/booth_halffull.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module half_adder
+-- Compiling module full_adder
+-- Compiling module booth_halffull
+
+Top level modules:
+	booth_halffull
+
+} {} {}} {C:/Users/madan/OneDrive/Desktop/major project verilog/tb/booth_halffull_tb.v} {1 {vlog -work work -stats=none {C:/Users/madan/OneDrive/Desktop/major project verilog/tb/booth_halffull_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module booth_halffull_tb
+
+Top level modules:
+	booth_halffull_tb
+
+} {} {}}

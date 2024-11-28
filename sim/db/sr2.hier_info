@@ -1,0 +1,7 @@
+|sr2
+S => N2.IN1
+R => N1.IN1
+Q <> Q
+Qb <> Qb
+
+

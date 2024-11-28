@@ -1,0 +1,15 @@
+{C:/Users/madan/OneDrive/Desktop/major project verilog/rtl/Booth_Multiplier_2x.v} {1 {vlog -work work -stats=none {C:/Users/madan/OneDrive/Desktop/major project verilog/rtl/Booth_Multiplier_2x.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Booth_Multiplier_2x
+
+Top level modules:
+	Booth_Multiplier_2x
+
+} {} {}} {C:/Users/madan/OneDrive/Desktop/major project verilog/tb/tb_Booth_Multiplier_2x.v} {1 {vlog -work work -stats=none {C:/Users/madan/OneDrive/Desktop/major project verilog/tb/tb_Booth_Multiplier_2x.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_Booth_Multiplier_2x
+
+Top level modules:
+	tb_Booth_Multiplier_2x
+
+} {} {}}

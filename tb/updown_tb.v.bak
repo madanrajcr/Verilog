@@ -1,0 +1,27 @@
+module updown_tb;
+reg clk,reset;
+reg[3:0]data;
+wire[3:0]A,B;
+updown Counter(clk,reset,data,A,B);
+always
+begin
+#5CLK=~CLK;
+end
+initial
+begin
+clk=0;
+reset=0;
+data=4'b0000;
+#10 reset=1;
+#5 data=4'b1010;
+#10 reset=0;
+#20 reset=1;
+#5 data=4'b0011;
+
+#100$finish;
+end
+always@(posedge clk)
+begin
+$display("A=%b,B=%b",A,B);
+end
+endmodule

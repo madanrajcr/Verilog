@@ -1,0 +1,6 @@
+
+State Machine - |vendingmachine|state
+Name state.STATE_0 state.STATE_2 state.STATE_1 
+state.STATE_0 0 0 0 
+state.STATE_1 1 0 1 
+state.STATE_2 1 1 0 

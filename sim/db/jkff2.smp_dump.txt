@@ -1,0 +1,7 @@
+
+State Machine - |jkff2|state
+Name state.TOGGLE state.RESET state.SET state.HOLD 
+state.HOLD 0 0 0 0 
+state.SET 0 0 1 1 
+state.RESET 0 1 0 1 
+state.TOGGLE 1 0 0 1 

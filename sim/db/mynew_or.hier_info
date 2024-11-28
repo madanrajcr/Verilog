@@ -1,0 +1,6 @@
+|mynew_or
+y <= n3.DB_MAX_OUTPUT_PORT_TYPE
+a => n3.IN0
+b => n3.IN1
+
+

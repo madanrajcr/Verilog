@@ -1,0 +1,15 @@
+C:/Users/madan/OneDrive/Desktop/verilog/rtl/bin_upc.v {1 {vlog -work work -stats=none C:/Users/madan/OneDrive/Desktop/verilog/rtl/bin_upc.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module bin_upc
+
+Top level modules:
+	bin_upc
+
+} {} {}} C:/Users/madan/OneDrive/Desktop/verilog/tb/bin_upc_tb.v {1 {vlog -work work -stats=none C:/Users/madan/OneDrive/Desktop/verilog/tb/bin_upc_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module bin_upc_tb
+
+Top level modules:
+	bin_upc_tb
+
+} {} {}}
